@@ -27,8 +27,8 @@ function Right() {
                     <div>
                         <h1>C/C++ Programmer</h1>
                         <p>
-                            Well versed with Data Structure and Object Oriented
-                            programming in C and C++. I find this quite
+                            Well versed with Data Structure in C and Object
+                            Oriented programming in C++. I find this quite
                             interesting.
                         </p>
                     </div>
