@@ -18,7 +18,7 @@ function Right() {
                             Finished learning basics of Web development along
                             with some cool and amazing technologies like NodeJS
                             and React. Currently working on small yet cool and
-                            interseting projects.
+                            interesting projects.
                         </p>
                     </div>
                 </div>
