@@ -5,7 +5,7 @@ import TypeIt from "typeit-react";
 
 function Header() {
     return (
-        <header className="header">
+        <div className="header">
             <div className="heading">
                 <a href="https://me.meghrathod.tech/">
                     <span>&#60;</span>
@@ -26,8 +26,7 @@ function Header() {
                                 .pause(750)
                                 .delete()
                                 .pause(500)
-                                .type("M . E . G . H / <span>Rathod</span>");
-
+                                .type("M . E . G . H / <span>Rathod</span>")
                             // Remember to return it!
                             return instance;
                         }}
@@ -62,7 +61,7 @@ function Header() {
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
-        </header>
+        </div>
     );
 }
 

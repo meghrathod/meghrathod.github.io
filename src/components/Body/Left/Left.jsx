@@ -25,7 +25,6 @@ function Left() {
                         return instance;
                     }}
                 />
-                ;
             </div>
         </div>
     );

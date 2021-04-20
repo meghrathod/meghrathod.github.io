@@ -2,7 +2,7 @@ $spotOne: #8b44dd;
 $spotTwo: #ec008c;
 $spotThree: #ff0000;
 
-header {
+.header {
     display: flex;
     height: auto;
     flex-wrap: wrap;
@@ -113,7 +113,7 @@ header {
 }
 
 @media only screen and (max-width: 700px) {
-    header {
+    .header {
         flex-direction: column;
         .heading {
             width: 100%;
