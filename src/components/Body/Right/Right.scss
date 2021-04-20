@@ -40,9 +40,14 @@
     .right-container {
         border: none;
         padding: 0;
+        width: 65%;
 
         .right-list {
             transform: translateY(-100px);
+
+            h1{
+                text-align: center;
+            }
 
             .right-item {
                 flex-direction: column;
