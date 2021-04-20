@@ -1,0 +1,132 @@
+$spotOne: #8b44dd;
+$spotTwo: #ec008c;
+$spotThree: #ff0000;
+
+header {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: linear-gradient(
+        90deg,
+        rgba(100, 43, 115, 0.9) 0%,
+        rgba(198, 66, 110, 0.9) 100%
+    );
+    fill-opacity: 0.5;
+    filter: drop-shadow(0px 7px 4px $spotOne);
+}
+
+.heading {
+    width: 50%;
+    a {
+        text-align: left;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: white;
+
+        div {
+            display: inline;
+            .ti-cursor {
+                visibility: hidden;
+            }
+        }
+
+        span {
+            font-family: "Zilla Slab";
+            font-weight: 800;
+
+            span {
+                font-family: "Poppins";
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.glowButton {
+    font-family: "Roboto Slab";
+    position: relative;
+    margin: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    line-height: 3rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(160deg, $spotThree, $spotTwo);
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+    transition: box-shadow 0.6s;
+
+    &:hover {
+        box-shadow: 0 0 60px 2px $spotTwo,
+            0rem 0rem 30px mix(black, $spotOne, 50%);
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        bottom: 2px;
+        left: 2px;
+        border-radius: 30px;
+        background-image: linear-gradient(
+            170deg,
+            rgba(white, 0.3),
+            rgba(white, 0)
+        );
+        pointer-events: none;
+    }
+}
+
+.links {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 1100px) {
+    .links {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .links {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+        .heading {
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            padding: 3% 0;
+            a{
+                font-size: 2rem;
+            }
+        }
+        .links {
+            width: 70%;
+            padding: 5%;
+        }
+    }
+}

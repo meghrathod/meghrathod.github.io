@@ -1,0 +1,29 @@
+.main-body{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2%;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-body{
+        flex-direction: column;
+        align-items: center;
+        padding: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+
+}
+
+@media only screen and (max-width: 740px) {
+
+}
+@media only screen and (max-width: 500px) {
+
+}

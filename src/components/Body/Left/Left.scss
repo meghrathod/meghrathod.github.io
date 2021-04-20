@@ -1,0 +1,92 @@
+.left-container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.memoji-container {
+    position: relative;
+    margin-top: 10%;
+    display: block;
+    height: 100%;
+
+    .memoji {
+        display: block;
+        width: 300px;
+        position: relative;
+    }
+    .hand {
+        display: block;
+        position: relative;
+        width: 200px;
+        bottom: 120px;
+        left: 170px;
+        transform: scaleX(-1) translateX(-100px);
+    }
+    .hand {
+        animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+        animation-duration: 2.5s; /* Change to speed up or slow down */
+        animation-iteration-count: infinite; /* Never stop waving :) */
+        transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    }
+}
+
+.hello {
+    transform: translateY(-120px);
+    text-align: center;
+    div {
+        display: inline;
+        .ti-cursor {
+            visibility: hidden;
+        }
+    }
+}
+
+h1 {
+    font-family: "Zilla Slab";
+    font-size: 2.5rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .memoji-container {
+        padding-top: 15%;
+        .memoji {
+            width: 200px;
+        }
+        .hand {
+            width: 150px;
+            bottom: 70px;
+            left: 100px;
+        }
+    }
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg) scaleX(-1);
+    }
+    10% {
+        transform: rotate(14deg) scaleX(-1);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg) scaleX(-1);
+    }
+    30% {
+        transform: rotate(14deg) scaleX(-1);
+    }
+    40% {
+        transform: rotate(-4deg) scaleX(-1);
+    }
+    50% {
+        transform: rotate(10deg) scaleX(-1);
+    }
+    60% {
+        transform: rotate(0deg) scaleX(-1);
+    } /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg) scaleX(-1);
+    }
+}
