@@ -3,6 +3,24 @@ import './Right.scss'
 import python from './python.svg'
 import webdev from './web_dev.svg'
 import c from './c.svg'
+import { motion } from "framer-motion";
+
+
+const fadeVariant1 = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 0.5, ease: "easeInOut" } }
+};
+
+const fadeVariant2 = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { delay:0.5, duration: 0.5, ease: "easeInOut" } },
+};
+const fadeVariant3 = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { delay:1, duration: 0.5, ease: "easeInOut" } },
+};
+
+
 
 function Right() {
     return (
@@ -10,7 +28,12 @@ function Right() {
             <div className="right-list">
                 <h1>Who am I?</h1>
 
-                <div className="right-item">
+                <motion.div
+                    className="right-item"
+                    initial="hidden"
+                    animate="visible"
+                    variants={fadeVariant1}
+                >
                     <img src={webdev} alt="webdev"></img>
                     <div>
                         <h1>Web Developer</h1>
@@ -21,8 +44,13 @@ function Right() {
                             interesting projects.
                         </p>
                     </div>
-                </div>
-                <div className="right-item">
+                </motion.div>
+                <motion.div
+                    className="right-item"
+                    initial="hidden"
+                    animate="visible"
+                    variants={fadeVariant2}
+                >
                     <img src={c} alt="c"></img>
                     <div>
                         <h1>C/C++ Programmer</h1>
@@ -32,8 +60,13 @@ function Right() {
                             interesting.
                         </p>
                     </div>
-                </div>
-                <div className="right-item">
+                </motion.div>
+                <motion.div
+                    className="right-item"
+                    initial="hidden"
+                    animate="visible"
+                    variants={fadeVariant3}
+                >
                     <img src={python} alt="webdev"></img>
                     <div>
                         <h1>Machine Learning and Python Enthusiast</h1>
@@ -44,7 +77,7 @@ function Right() {
                             the journey goes.
                         </p>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     );
