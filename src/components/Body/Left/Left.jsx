@@ -1,7 +1,7 @@
 import React from "react";
 import "./Left.scss";
-import memoji from "./memoji_new.png";
-import hand from "./hand.png";
+import memoji from "./memoji_new.webp";
+import hand from "./hand.webp";
 import TypeIt from "typeit-react";
 
 function Memoji() {
