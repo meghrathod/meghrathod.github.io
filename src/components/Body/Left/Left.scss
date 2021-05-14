@@ -1,9 +1,9 @@
 .left-container {
-    width: 35%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .memoji-container {
@@ -14,15 +14,15 @@
 
     .memoji {
         display: block;
-        width: 300px;
+        width: 220px;
         position: relative;
     }
     .hand {
         display: block;
         position: relative;
-        width: 200px;
-        bottom: 120px;
-        left: 170px;
+        width: 130px;
+        bottom: 60px;
+        left: 140px;
         transform: scaleX(-1) translateX(-100px);
     }
     .hand {
@@ -34,7 +34,7 @@
 }
 
 .hello {
-    transform: translateY(-120px);
+    transform: translateY(-100px);
     text-align: center;
     div {
         display: inline;
@@ -48,6 +48,12 @@ h1 {
     font-family: "Zilla Slab";
     font-size: 2.5rem;
     color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+    .hello{
+        height: 0;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
