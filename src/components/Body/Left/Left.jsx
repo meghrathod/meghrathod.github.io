@@ -2,7 +2,7 @@ import React from "react";
 import "./Left.scss";
 import memoji from "./memoji_new.webp";
 import hand from "./hand.webp";
-import TypeIt from "typeit-react";
+import Typing from "react-typing-animation";
 
 function Memoji() {
     return (
@@ -18,13 +18,9 @@ function Left() {
         <div className="left-container">
             <Memoji />
             <div className="hello">
-                {" "}
-                <TypeIt
-                    getBeforeInit={(instance) => {
-                        instance.type("<h1>Hello World!</h1>");
-                        return instance;
-                    }}
-                />
+                <Typing hideCursor={true}>
+                    <h1>Hello, World!</h1>
+                </Typing>
             </div>
         </div>
     );
