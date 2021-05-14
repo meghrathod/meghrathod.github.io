@@ -102,6 +102,14 @@ $spotThree: #ff0000;
     font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 1100px){
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+}
+
 @media only screen and (max-width: 1100px) {
     .links {
         width: 30%;

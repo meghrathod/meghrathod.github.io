@@ -7,12 +7,6 @@ html{
 body {
     margin: 0;
     padding: 0;
-    background: rgb(100, 43, 115);
-    background: url("./components/images/background.png"),  linear-gradient(
-        90deg,
-        rgba(100, 43, 115, 1) 0%,
-        rgba(198, 66, 110, 1) 100%
-    );
     background-attachment: fixed;
 
 }

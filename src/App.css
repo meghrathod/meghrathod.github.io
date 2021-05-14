@@ -5,10 +5,30 @@
   justify-content: space-between;
 }
 
+.background{
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    margin: 0;
+    background: rgb(100, 43, 115);
+    background: url("./components/images/background.png"),
+        linear-gradient(
+                90deg,
+                rgba(100, 43, 115, 1) 0%,
+                rgba(198, 66, 110, 1) 100%
+            );
+	
+	
+}
+
 
 @media only screen and (min-width: 1200px) {
   .App{
     max-height: 100%;
   }
-  
 }

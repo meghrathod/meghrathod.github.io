@@ -7,6 +7,7 @@ import Helmet from "helmet";
 function App() {
     return (
         <div className="App">
+            <div className="background"></div>
             <Helmet>
                 <meta
                     name="description"
