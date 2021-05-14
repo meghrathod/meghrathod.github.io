@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import TypeIt from "typeit-react";
+import Typing from "react-typing-animation";
 
 
 function Header() {
@@ -10,27 +10,23 @@ function Header() {
                 <a href="https://me.meghrathod.tech/">
                     <span>&#60;</span>
                     <span>&#160;</span>
+                    <div className="typewriter-header">
+                        <span>
+                            <Typing hideCursor={true}>
+                                M . E . G . H / <span>Rathod</span>
+                                <Typing.Delay ms={750} />
+                                <Typing.Backspace count={22} />A /{" "}
+                                <span>Programmer</span>
+                                <Typing.Delay ms={500} />
+                                <Typing.Backspace count={10} />
+                                <span>Developer</span>
+                                <Typing.Delay ms={500} />
+                                <Typing.Backspace count={15} />M . E . G . H /{" "}
+                                <span>Rathod</span>
+                            </Typing>
+                        </span>
+                    </div>
 
-                    <TypeIt
-                        getBeforeInit={(instance) => {
-                            instance
-                                .type("M . E . G . H / <span>Rathod</span>")
-                                .pause(750)
-                                .delete()
-                                .pause(500)
-                                .type("A / <span>Programmer</span>")
-                                .pause(750)
-                                .delete(10)
-                                .pause(500)
-                                .type("<span>Developer</span>")
-                                .pause(750)
-                                .delete()
-                                .pause(500)
-                                .type("M . E . G . H / <span>Rathod</span>")
-                            // Remember to return it!
-                            return instance;
-                        }}
-                    />
                     <span>&#160;</span>
                     <span>&#62;</span>
                 </a>
