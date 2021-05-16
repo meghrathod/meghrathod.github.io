@@ -1,36 +1,63 @@
 .App {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.background{
+.background-image{
+	background-image: url("./components/images/background.png");
 	position: fixed;
     right: 0;
     bottom: 0;
-	top: 0;
-	bottom: 0;
+    top: 0;
+    bottom: 0;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     z-index: -100;
     margin: 0;
-    background: rgb(100, 43, 115);
-    background: url("./components/images/background.png"),
-        linear-gradient(
-                90deg,
-                rgba(100, 43, 115, 1) 0%,
-                rgba(198, 66, 110, 1) 100%
-            );
-	
-	
 }
 
+.background {
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    margin: 0;
+    background:
+        linear-gradient(
+            45deg,
+			#4E65FF 0%,
+			#1D2671 25%,
+            #C33764 75%,
+			#7b4397 100%
+        );
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 @media only screen and (min-width: 1200px) {
-  .App{
-    max-height: 100%;
-  }
+    .App {
+        max-height: 100%;
+    }
 }

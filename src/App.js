@@ -8,6 +8,7 @@ function App() {
     return (
         <div className="App">
             <div className="background"></div>
+            <div className="background-image"></div>
             <Helmet>
                 <meta
                     name="description"
