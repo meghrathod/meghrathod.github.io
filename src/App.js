@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Body from "./components/Body/Body.jsx";
 import Footer from "./components/Footer/Footer";
-import Helmet from "helmet";
+import {Helmet} from "react-helmet";
 
 function App() {
     return (
@@ -12,8 +12,13 @@ function App() {
             <Helmet>
                 <meta
                     name="description"
-                    content="Megh Rathod is a student developer working towards becoming a great developer and give the world something amazing!"
+                    content="I am a student developer trying and learning new technolgies everyday! I love all tech!"
                 />
+                <meta
+                    name="og:description"
+                    content="I am a student developer trying and learning new technolgies everyday! I love all tech!"
+                />
+                <meta property="og:title" content="Megh Rathod" />
             </Helmet>
             <Header />
             <Body />
