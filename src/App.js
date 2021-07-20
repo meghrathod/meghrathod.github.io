@@ -15,10 +15,11 @@ function App() {
                     content="I am a student developer trying and learning new technolgies everyday! I love all tech!"
                 />
                 <meta
-                    name="og:description"
+                    property="og:description"
                     content="I am a student developer trying and learning new technolgies everyday! I love all tech!"
                 />
                 <meta property="og:title" content="Megh Rathod" />
+                <meta property="og:image" content="./components/images/megh.png" />
             </Helmet>
             <Header />
             <Body />
