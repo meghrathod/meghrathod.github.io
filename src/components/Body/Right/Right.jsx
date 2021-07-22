@@ -1,26 +1,29 @@
 import React from "react";
-import './Right.scss'
-import python from './python.svg'
-import webdev from './web_dev.svg'
-import c from './c.svg'
+import "./Right.scss";
+import python from "./python.svg";
+import webdev from "./web_dev.svg";
+import java from "./java.svg";
 import { motion } from "framer-motion";
-
 
 const fadeVariant1 = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 0.5, ease: "easeInOut" } }
+    visible: { opacity: 1, transition: { duration: 0.5, ease: "easeInOut" } },
 };
 
 const fadeVariant2 = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { delay:0.5, duration: 0.5, ease: "easeInOut" } },
+    visible: {
+        opacity: 1,
+        transition: { delay: 0.5, duration: 0.5, ease: "easeInOut" },
+    },
 };
 const fadeVariant3 = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { delay:1, duration: 0.5, ease: "easeInOut" } },
+    visible: {
+        opacity: 1,
+        transition: { delay: 1, duration: 0.5, ease: "easeInOut" },
+    },
 };
-
-
 
 function Right() {
     return (
@@ -38,10 +41,10 @@ function Right() {
                     <div>
                         <h1>Web Developer</h1>
                         <p>
-                            Finished learning basics of Web development along
-                            with some cool and amazing technologies like NodeJS
-                            and React. Currently working on small yet cool and
-                            interesting projects.
+                            Practising web development with some cool and
+                            amazing technologies like NodeJS and React.
+                            Currently working on small interesting
+                            projects.
                         </p>
                     </div>
                 </motion.div>
@@ -51,13 +54,14 @@ function Right() {
                     animate="visible"
                     variants={fadeVariant2}
                 >
-                    <img src={c} alt="c"></img>
+                    <img src={java} alt="java"></img>
                     <div>
-                        <h1>C/C++ Programmer</h1>
+                        <h1>Obeject-oriented Programmer in Java</h1>
                         <p>
-                            Well versed with Data Structure in C and Object
-                            Oriented programming in C++. I find this quite
-                            interesting.
+                            Started enjoying objected-oriented programming in
+                            Java. Playing with objects is fun not only in Java
+                            but also C++. Also working with various frameworks
+                            like Spring in Java.
                         </p>
                     </div>
                 </motion.div>
