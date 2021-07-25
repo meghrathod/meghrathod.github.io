@@ -10,7 +10,7 @@ function App() {
             <Helmet>
                 <meta
                     name="description"
-                    content="I am a student developer trying and learning new technolgies everyday! I love all tech!"
+                    content="Hey, I'm Megh Rathod, trying my hands at object oriented programming in Java, web development technologies, and also Machine Learning."
                 />
             </Helmet>
             <div className="background"></div>
