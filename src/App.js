@@ -12,16 +12,6 @@ function App() {
                     name="description"
                     content="I am a student developer trying and learning new technolgies everyday! I love all tech!"
                 />
-                <meta
-                    property="og:description"
-                    content="I am a student developer trying and learning new technolgies everyday! I love all tech!"
-                />
-
-                <meta property="og:title" content="Megh Rathod" />
-                <meta
-                    property="og:image"
-                    content="https://pbs.twimg.com/profile_images/1362374551548563463/-NFBY4tq_400x400.jpg"
-                />
             </Helmet>
             <div className="background"></div>
             <div className="background-image"></div>
