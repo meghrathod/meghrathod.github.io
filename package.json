@@ -4,7 +4,7 @@
     "private": true,
     "homepage": "https://meghrathod.github.io/",
     "dependencies": {
-        "framer-motion": "^4.1.5",
+        "framer-motion": "^4.1.17",
         "gh-pages": "^3.2.3",
         "helmet": "^4.6.0",
         "react": "^17.0.2",
