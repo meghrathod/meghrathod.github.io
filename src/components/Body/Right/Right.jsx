@@ -56,7 +56,7 @@ function Right() {
                 >
                     <img src={java} alt="java"></img>
                     <div>
-                        <h1>Obeject-oriented Programmer in Java</h1>
+                        <h1>Object-Oriented Programmer in Java</h1>
                         <p>
                             Started enjoying objected-oriented programming in
                             Java. Playing with objects is fun not only in Java
