@@ -12,7 +12,7 @@
         "react-helmet": "^6.1.0",
         "react-scripts": "4.0.3",
         "react-typing-animation": "^1.6.2",
-        "sass": "^1.39.0",
+        "sass": "^1.39.2",
         "web-vitals": "^2.1.0"
     },
     "scripts": {
