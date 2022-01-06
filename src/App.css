@@ -6,8 +6,8 @@
 }
 
 .background-image{
-	background-image: url("./components/images/background.png");
-	position: fixed;
+    background-image: url("./components/images/background.png");
+    position: fixed;
     right: 0;
     bottom: 0;
     top: 0;
@@ -21,7 +21,7 @@
 }
 
 .background {
-	position: fixed;
+    position: fixed;
     right: 0;
     bottom: 0;
     top: 0;
@@ -60,4 +60,23 @@
     .App {
         max-height: 100%;
     }
+}
+
+/* Import fonts from ./components/fonts  */
+@font-face {
+    font-family: "Tailwind";
+    src: url("./components/fonts/Tailwind/Tailwind\ Regular.woff2") format("woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Tailwind";
+    src: url("./components/fonts/Tailwind/Tailwind\ Black.woff2") format("woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Tailwind";
+    src: url("./components/fonts/Tailwind/Tailwind\ Light.woff2") format("woff2");
+    font-weight: lighter;
 }
