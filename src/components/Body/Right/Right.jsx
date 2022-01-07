@@ -7,25 +7,26 @@ import { motion } from "framer-motion";
 
 const fadeVariant1 = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 0.5, ease: "easeInOut" } },
+    visible: { opacity: 1, transition: { duration: 1, ease: "easeInOut" } },
 };
 
 const fadeVariant2 = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
-        transition: { delay: 0.5, duration: 0.5, ease: "easeInOut" },
+        transition: { delay: 0.5, duration: 1, ease: "easeInOut" },
     },
 };
 const fadeVariant3 = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
-        transition: { delay: 1, duration: 0.5, ease: "easeInOut" },
+        transition: { delay: 1, duration: 1, ease: "easeInOut" },
     },
 };
 
 function Right() {
+    let w = window.screen.width;
     return (
         <div className="right-container">
             <div className="right-list">
@@ -34,7 +35,8 @@ function Right() {
                 <motion.div
                     className="right-item"
                     initial="hidden"
-                    animate="visible"
+                    whileInView="visible"
+                    viewport={{ once: true }}
                     variants={fadeVariant1}
                 >
                     <img src={webdev} alt="webdev"></img>
@@ -43,33 +45,34 @@ function Right() {
                         <p>
                             Practising web development with some cool and
                             amazing technologies like NodeJS and React.
-                            Currently working on small interesting
-                            projects.
+                            Currently working on small interesting projects.
                         </p>
                     </div>
                 </motion.div>
                 <motion.div
                     className="right-item"
                     initial="hidden"
-                    animate="visible"
-                    variants={fadeVariant2}
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    variants={w > 1200 ? fadeVariant2 : fadeVariant1}
                 >
                     <img src={java} alt="java"></img>
                     <div>
                         <h1>Object-Oriented Programmer in Java</h1>
                         <p>
-                            Started enjoying objected-oriented programming in
-                            Java. Playing with objects is fun not only in Java
-                            but also C++. Also working with various frameworks
-                            like Spring in Java.
+                            Learnt objected-oriented programming in Java.
+                            Currently learning and implementing a chat app using
+                            concurrency and socket programming. Also working
+                            with various frameworks like Spring.
                         </p>
                     </div>
                 </motion.div>
                 <motion.div
                     className="right-item"
                     initial="hidden"
-                    animate="visible"
-                    variants={fadeVariant3}
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    variants={w > 1200 ? fadeVariant3 : fadeVariant1}
                 >
                     <img src={python} alt="webdev"></img>
                     <div>
