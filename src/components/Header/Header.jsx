@@ -33,7 +33,7 @@ function Header() {
             </div>
             <div className="links">
                 <a
-                    href="mailto:me@meghrathod.tech"
+                    href="mailto:me@meghrathod.dev"
                     className="glowButton"
                     target="_blank"
                     rel="noreferrer"
