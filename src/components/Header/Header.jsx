@@ -56,6 +56,14 @@ function Header() {
                 >
                     <i class="fab fa-linkedin"></i>
                 </a>
+                <a
+                    href="https://resume.meghrathod.dev/"
+                    className="glowButton"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <i class="fa-regular fa-address-card"></i>
+                </a>
             </div>
         </div>
     );
