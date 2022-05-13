@@ -108,13 +108,13 @@ $spotThree: #ff0000;
     font-size: 1.5rem;
 }
 
-// @media only screen and (max-width: 1000px) {
-//     .header {
-//         position: fixed;
-//         width: 100%;
-//         z-index: 1;
-//     }
-// }
+@media only screen and (max-width: 1000px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+}
 
 // @media only screen and (max-width: 1000px) {
 //     .links {
@@ -142,7 +142,7 @@ $spotThree: #ff0000;
             }
         }
         .links {
-            width: 70%;
+            width: 90%;
             padding: 5%;
         }
     }
