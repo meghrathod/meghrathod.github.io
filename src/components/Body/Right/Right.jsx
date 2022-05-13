@@ -1,6 +1,6 @@
 import React from "react";
 import "./Right.scss";
-import python from "./python.svg";
+import cloud from "./cloud-computing.svg";
 import webdev from "./web_dev.svg";
 import java from "./java.svg";
 import { motion } from "framer-motion";
@@ -74,14 +74,13 @@ function Right() {
                     viewport={{ once: true }}
                     variants={w > 1200 ? fadeVariant3 : fadeVariant1}
                 >
-                    <img src={python} alt="webdev"></img>
+                    <img src={cloud} alt="cloud"></img>
                     <div>
-                        <h1>Machine Learning and Python Enthusiast</h1>
+                        <h1>Cloud Computing and DevOps Enthusiast</h1>
                         <p>
-                            Have completed an extensive course in Python and
-                            just begun learning Machine Learning. Machine
-                            Learning is very intriguing and curious to see how
-                            the journey goes.
+                            Currently exploring Cloud Computing with the Google
+                            Cloud Platform. Along with that I'm also exploring
+                            DevOps technologies like Docker, Kubernetes, etc.
                         </p>
                     </div>
                 </motion.div>
