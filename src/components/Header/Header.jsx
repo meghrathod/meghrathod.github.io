@@ -49,7 +49,7 @@ function Header() {
                     <i class="fab fa-github"></i>
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/rathod-megh/"
+                    href="https://www.linkedin.com/in/meghrathod/"
                     className="glowButton"
                     target="_blank"
                     rel="noreferrer"
