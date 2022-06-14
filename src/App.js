@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Body from "./components/Body/Body.jsx";
 import Footer from "./components/Footer/Footer";
 import { Helmet } from "react-helmet";
+import Background from "./components/Body/Background";
 
 function App() {
     return (
@@ -13,8 +14,7 @@ function App() {
                     content="Hey, I'm Megh Rathod, trying my hands at object oriented programming in Java, web development technologies, and also Machine Learning."
                 />
             </Helmet>
-            <div className="background"></div>
-            <div className="background-image"></div>
+            <Background />
             <Header />
             <Body />
             <Footer />
