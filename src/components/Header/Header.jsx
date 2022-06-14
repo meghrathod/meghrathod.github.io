@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className="header">
             <div className="heading">
-                <a href="https://me.meghrathod.tech/">
+                <a href="https://me.meghrathod.dev/">
                     <span>&#60;</span>
                     <span>&#160;</span>
                     <div className="typewriter-header">
