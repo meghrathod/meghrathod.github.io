@@ -11,10 +11,9 @@ $spotThree: #ff0000;
     padding: 1%;
     background: linear-gradient(
         45deg,
-        #7b4397 0%,
-        #c33764 25%,
-        #1d2671 75%,
-        #4e65ff 100%
+        #c33764 0%,
+        #7b4397 50%,
+        #c33764 100%
     );
     fill-opacity: 0.5;
     filter: drop-shadow(0px 7px 4px $spotOne);
