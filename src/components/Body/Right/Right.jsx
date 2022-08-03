@@ -39,13 +39,13 @@ function Right() {
                     viewport={{ once: true }}
                     variants={fadeVariant1}
                 >
-                    <img src={webdev} alt="webdev"></img>
+                    <img src={cloud} alt="cloud"></img>
                     <div>
-                        <h1>Web Developer</h1>
+                        <h1>Cloud Computing and DevOps Enthusiast</h1>
                         <p>
-                            Practising web development with some cool and
-                            amazing technologies like NodeJS and React.
-                            Currently working on small interesting projects.
+                            Currently exploring Cloud Computing with the Google
+                            Cloud Platform. Along with that I'm also exploring
+                            DevOps technologies like Docker, Kubernetes, etc.
                         </p>
                     </div>
                 </motion.div>
@@ -74,13 +74,13 @@ function Right() {
                     viewport={{ once: true }}
                     variants={w > 1200 ? fadeVariant3 : fadeVariant1}
                 >
-                    <img src={cloud} alt="cloud"></img>
+                    <img src={webdev} alt="webdev"></img>
                     <div>
-                        <h1>Cloud Computing and DevOps Enthusiast</h1>
+                        <h1>Web Developer</h1>
                         <p>
-                            Currently exploring Cloud Computing with the Google
-                            Cloud Platform. Along with that I'm also exploring
-                            DevOps technologies like Docker, Kubernetes, etc.
+                            Practising web development with some cool and
+                            amazing technologies like NodeJS and React.
+                            Currently working on small interesting projects.
                         </p>
                     </div>
                 </motion.div>
