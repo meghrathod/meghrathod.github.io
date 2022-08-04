@@ -1,65 +1,63 @@
 .App {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .background {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    margin: 0;
-    background: #021B79;
-    /* background: -webkit-linear-gradient(to left, #0575E6, #021B79); */
-    width: 100%;
-    height: 100vh;
-    position: fixed;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  margin: 0;
+  background: #021b79;
+  /* background: -webkit-linear-gradient(to left, #0575E6, #021B79); */
+  width: 100%;
+  height: 100vh;
+  position: fixed;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .App {
-        max-height: 100%;
-    }
+  .App {
+    max-height: 100%;
+  }
 }
 
 /* Import fonts from ./components/fonts  */
 @font-face {
-    font-family: "Tailwind";
-    src: url("./components/fonts/Tailwind/Tailwind\ Regular.woff2")
-        format("woff2");
-    font-weight: normal;
+  font-family: "Tailwind";
+  src: url("./components/fonts/Tailwind/Tailwind\ Regular.woff2")
+    format("woff2");
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "Tailwind";
-    src: url("./components/fonts/Tailwind/Tailwind\ Black.woff2")
-        format("woff2");
-    font-weight: bold;
+  font-family: "Tailwind";
+  src: url("./components/fonts/Tailwind/Tailwind\ Black.woff2") format("woff2");
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: "Tailwind";
-    src: url("./components/fonts/Tailwind/Tailwind\ Light.woff2")
-        format("woff2");
-    font-weight: lighter;
+  font-family: "Tailwind";
+  src: url("./components/fonts/Tailwind/Tailwind\ Light.woff2") format("woff2");
+  font-weight: lighter;
 }
