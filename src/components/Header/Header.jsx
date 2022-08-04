@@ -38,7 +38,7 @@ function Header() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <i class="fas fa-envelope"></i>
+                    <i className="fas fa-envelope"></i>
                 </a>
                 <a
                     href="https://www.github.com/meghrathod/"
@@ -46,7 +46,7 @@ function Header() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-github"></i>
                 </a>
                 <a
                     href="https://www.linkedin.com/in/meghrathod/"
@@ -54,7 +54,7 @@ function Header() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                 </a>
                 <a
                     href="https://resume.meghrathod.dev/"
@@ -62,7 +62,7 @@ function Header() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <i class="fa-regular fa-address-card"></i>
+                    <i className="fa-regular fa-address-card"></i>
                 </a>
             </div>
         </div>
