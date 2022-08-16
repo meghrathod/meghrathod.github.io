@@ -11,7 +11,7 @@ function Header() {
           <span>&#160;</span>
           <div className="typewriter-header">
             <span>
-              <Typing hideCursor={true}>
+              <Typing hideCursor>
                 M . E . G . H / <span>Rathod</span>
                 <Typing.Delay ms={750} />
                 <Typing.Backspace count={22} />A / <span>Programmer</span>
@@ -36,7 +36,7 @@ function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fas fa-envelope" />
+          <i className="fas fa-envelope" />
         </a>
         <a
           href="https://www.github.com/meghrathod/"
@@ -44,7 +44,7 @@ function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fab fa-github" />
+          <i className="fab fa-github" />
         </a>
         <a
           href="https://www.linkedin.com/in/meghrathod/"
@@ -52,7 +52,7 @@ function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fab fa-linkedin" />
+          <i className="fab fa-linkedin" />
         </a>
         <a
           href="https://resume.meghrathod.dev/"
@@ -60,7 +60,7 @@ function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa-regular fa-address-card" />
+          <i className="fa-regular fa-address-card" />
         </a>
       </div>
     </div>

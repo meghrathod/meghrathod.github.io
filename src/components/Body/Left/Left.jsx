@@ -18,7 +18,7 @@ function Left() {
     <div className="left-container">
       <Memoji />
       <div className="hello">
-        <Typing hideCursor={true}>
+        <Typing hideCursor>
           <h1>Hello, World!</h1>
         </Typing>
       </div>
