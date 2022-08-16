@@ -39,7 +39,7 @@ function Right() {
                     viewport={{ once: true }}
                     variants={fadeVariant1}
                 >
-                    <img src={cloud} alt="cloud"></img>
+                    <img src={cloud} alt="cloud" />
                     <div>
                         <h1>Cloud Computing and DevOps Enthusiast</h1>
                         <p>
@@ -56,7 +56,7 @@ function Right() {
                     viewport={{ once: true }}
                     variants={w > 1200 ? fadeVariant2 : fadeVariant1}
                 >
-                    <img src={java} alt="java"></img>
+                    <img src={java} alt="java" />
                     <div>
                         <h1>Object-Oriented Programmer in Java</h1>
                         <p>
@@ -74,7 +74,7 @@ function Right() {
                     viewport={{ once: true }}
                     variants={w > 1200 ? fadeVariant3 : fadeVariant1}
                 >
-                    <img src={webdev} alt="webdev"></img>
+                    <img src={webdev} alt="webdev" />
                     <div>
                         <h1>Web Developer</h1>
                         <p>

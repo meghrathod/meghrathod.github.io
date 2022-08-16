@@ -7,8 +7,8 @@ import Typing from "react-typing-animation";
 function Memoji() {
     return (
         <div className="memoji-container">
-            <img src={memoji} alt="megh's memoji" className="memoji"></img>
-            <img src={hand} alt="megh's memoji" className="hand"></img>
+            <img src={memoji} alt="megh's memoji" className="memoji" />
+            <img src={hand} alt="megh's memoji" className="hand" />
         </div>
     );
 }
