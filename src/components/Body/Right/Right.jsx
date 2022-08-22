@@ -3,7 +3,7 @@ import "./Right.scss";
 import cloud from "./cloud-computing.svg";
 import webdev from "./web_dev.svg";
 import java from "./java.svg";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion/dist/framer-motion";
 
 const fadeVariant1 = {
   hidden: { opacity: 0 },
