@@ -27,7 +27,7 @@ const fadeVariant3 = {
 
 // Right side Body component
 function Right() {
-  const w = window.screen.width;
+  const width = window.screen.width;
   return (
     <div className="right-container">
       <div className="right-list">
@@ -55,7 +55,7 @@ function Right() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          variants={w > 1200 ? fadeVariant2 : fadeVariant1}
+          variants={width > 1200 ? fadeVariant2 : fadeVariant1}
         >
           <img src={java} alt="java" />
           <div>
@@ -72,7 +72,7 @@ function Right() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          variants={w > 1200 ? fadeVariant3 : fadeVariant1}
+          variants={width > 1200 ? fadeVariant3 : fadeVariant1}
         >
           <img src={webdev} alt="webdev" />
           <div>
