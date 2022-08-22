@@ -29,63 +29,65 @@ const fadeVariant3 = {
 function Right() {
   const width = window.screen.width;
   return (
-    <div className="right-container">
-      <div className="right-list">
-        <h1>Who am I?</h1>
+      <div className="right-container">
+          <div className="right-list">
+              <h1>Who am I?</h1>
 
-        <motion.div
-          className="right-item"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeVariant1}
-        >
-          <img src={cloud} alt="cloud" />
-          <div>
-            <h1>Cloud Computing and DevOps Enthusiast</h1>
-            <p>
-              Currently exploring Cloud Computing with the Google Cloud
-              Platform. Along with that I'm also exploring DevOps technologies
-              like Docker, Kubernetes, etc.
-            </p>
+              <motion.div
+                  className="right-item"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={fadeVariant1}
+              >
+                  <img src={cloud} alt="cloud" />
+                  <div>
+                      <h1>Cloud Computing and DevOps Enthusiast</h1>
+                      <p>
+                          Currently exploring Cloud Computing with the Google
+                          Cloud Platform. Along with that I&apos;m also
+                          exploring DevOps technologies like Docker, Kubernetes,
+                          etc.
+                      </p>
+                  </div>
+              </motion.div>
+              <motion.div
+                  className="right-item"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={width > 1200 ? fadeVariant2 : fadeVariant1}
+              >
+                  <img src={java} alt="java" />
+                  <div>
+                      <h1>Object-Oriented Programmer in Java</h1>
+                      <p>
+                          Learnt objected-oriented programming in Java.
+                          Currently learning and implementing a chat app using
+                          concurrency and socket programming. Also working with
+                          various frameworks like Spring.
+                      </p>
+                  </div>
+              </motion.div>
+              <motion.div
+                  className="right-item"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={width > 1200 ? fadeVariant3 : fadeVariant1}
+              >
+                  <img src={webdev} alt="webdev" />
+                  <div>
+                      <h1>Web Developer</h1>
+                      <p>
+                          Practising web development with some cool and amazing
+                          technologies like NodeJS and React. Currently working
+                          on small interesting projects.
+                      </p>
+                  </div>
+              </motion.div>
           </div>
-        </motion.div>
-        <motion.div
-          className="right-item"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={width > 1200 ? fadeVariant2 : fadeVariant1}
-        >
-          <img src={java} alt="java" />
-          <div>
-            <h1>Object-Oriented Programmer in Java</h1>
-            <p>
-              Learnt objected-oriented programming in Java. Currently learning
-              and implementing a chat app using concurrency and socket
-              programming. Also working with various frameworks like Spring.
-            </p>
-          </div>
-        </motion.div>
-        <motion.div
-          className="right-item"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={width > 1200 ? fadeVariant3 : fadeVariant1}
-        >
-          <img src={webdev} alt="webdev" />
-          <div>
-            <h1>Web Developer</h1>
-            <p>
-              Practising web development with some cool and amazing technologies
-              like NodeJS and React. Currently working on small interesting
-              projects.
-            </p>
-          </div>
-        </motion.div>
       </div>
-    </div>
   );
 }
 
