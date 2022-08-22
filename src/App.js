@@ -1,6 +1,6 @@
 import "./App.css";
-import Background from "./components/Body/Background";
 import Body from "./components/Body/Body.jsx";
+import Background from "./components/Body/Background";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import { Helmet } from "react-helmet";
