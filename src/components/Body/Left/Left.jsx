@@ -1,8 +1,8 @@
 import "./Left.scss";
 import hand from "./hand.webp";
 import memoji from "./memoji_new.webp";
-import { TypeAnimation } from "react-type-animation";
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 
 // Memoji component

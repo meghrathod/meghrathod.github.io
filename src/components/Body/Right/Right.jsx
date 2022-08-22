@@ -2,8 +2,8 @@ import "./Right.scss";
 import cloud from "./cloud-computing.svg";
 import java from "./java.svg";
 import { motion } from "framer-motion/dist/framer-motion";
-import webdev from "./web_dev.svg";
 import React from "react";
+import webdev from "./web_dev.svg";
 
 const fadeVariant1 = {
   hidden: { opacity: 0 },
