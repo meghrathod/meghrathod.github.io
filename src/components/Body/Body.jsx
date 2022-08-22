@@ -1,15 +1,15 @@
-import React from 'react'
-import Left from './Left/Left'
+import "./body.scss";
+import Left from "./Left/Left";
+import React from "react";
 import Right from "./Right/Right";
-import './body.scss'
-
 
 function Body() {
     return (
-        <div className="main-body" >
+        <div className="main-body">
             <Left />
             <Right />
-        </div>)
+        </div>
+    );
 }
 
 export default Body;
