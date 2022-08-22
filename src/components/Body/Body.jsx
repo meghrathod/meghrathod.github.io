@@ -5,12 +5,12 @@ import Right from "./Right/Right";
 
 // Body component
 function Body() {
-    return (
-        <div className="main-body">
-            <Left />
-            <Right />
-        </div>
-    );
+  return (
+    <div className="main-body">
+      <Left />
+      <Right />
+    </div>
+  );
 }
 
 export default Body;
