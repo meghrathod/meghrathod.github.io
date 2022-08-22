@@ -25,6 +25,7 @@ const fadeVariant3 = {
   },
 };
 
+// Right side Body component
 function Right() {
   const w = window.screen.width;
   return (

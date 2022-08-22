@@ -2,6 +2,7 @@ import "./Header.scss";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
+// Header components 
 function Header() {
     return (
         <div className="header">
