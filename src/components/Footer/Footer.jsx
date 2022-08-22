@@ -1,6 +1,7 @@
 import "./Footer.scss";
 import React from "react";
 
+// Footer component
 const Footer = () => {
     return (
         <div className="footer">

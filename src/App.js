@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import { Helmet } from "react-helmet";
 import React from "react";
 
+// Main app rendered
 function App() {
     return (
         <div className="App">
