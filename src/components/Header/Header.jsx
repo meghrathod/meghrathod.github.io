@@ -1,6 +1,6 @@
 import "./Header.scss";
-import { TypeAnimation } from "react-type-animation";
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 function Header() {
     return (
