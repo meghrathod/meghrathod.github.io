@@ -4,6 +4,7 @@ import Body from "./components/Body/Body.jsx";
 import Footer from "./components/Footer/Footer";
 import { Helmet } from "react-helmet";
 import Background from "./components/Body/Background";
+import React from "react";
 
 function App() {
     return (
