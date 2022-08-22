@@ -26,7 +26,7 @@ const fadeVariant3 = {
 };
 
 function Right() {
-  let w = window.screen.width;
+  const w = window.screen.width;
   return (
     <div className="right-container">
       <div className="right-list">
