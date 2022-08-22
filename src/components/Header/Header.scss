@@ -3,115 +3,110 @@ $spotTwo: #ec008c;
 $spotThree: #ff0000;
 
 .header {
-    display: flex;
-    height: auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 1%;
-    background: linear-gradient(45deg, #c33764 0%, #7b4397 50%, #c33764 100%);
-    fill-opacity: 0.5;
-    filter: drop-shadow(0px 7px 4px $spotOne);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1%;
+  background: linear-gradient(45deg, #c33764 0%, #7b4397 50%, #c33764 100%);
+  fill-opacity: 0.5;
+  filter: drop-shadow(0px 7px 4px $spotOne);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 .heading {
-    width: 50%;
-    height: 40px;
-    a {
-        text-align: left;
-        text-decoration: none;
-        font-size: 1.5rem;
-        color: white;
+  width: 50%;
+  height: 40px;
+  a {
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
 
-        div {
-            display: inline;
-            .ti-cursor {
-                visibility: hidden;
-            }
-        }
-
-        span {
-            font-family: "Tailwind";
-            font-weight: lighter;
-            font-size: 2rem;
-
-            span {
-                font-family: "Tailwind";
-                font-weight: lighter;
-            }
-        }
+    div {
+      display: inline;
+      .ti-cursor {
+        visibility: hidden;
+      }
     }
+
+    span {
+      font-family: "Tailwind";
+      font-weight: lighter;
+      font-size: 2rem;
+
+      span {
+        font-family: "Tailwind";
+        font-weight: lighter;
+      }
+    }
+  }
 }
 
 .glowButton {
-    font-family: "Roboto Slab";
-    position: relative;
-    margin: auto;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    font-size: 1rem;
-    line-height: 3rem;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-image: linear-gradient(160deg, $spotThree, $spotTwo);
+  font-family: "Roboto Slab";
+  position: relative;
+  margin: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 3rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(160deg, $spotThree, $spotTwo);
+  border-radius: 30px;
+  cursor: pointer;
+  user-select: none;
+  transition: box-shadow 0.6s;
+
+  &:hover {
+    box-shadow: 0 0 60px 2px $spotTwo, 0rem 0rem 30px mix(black, $spotOne, 50%);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
     border-radius: 30px;
-    cursor: pointer;
-    user-select: none;
-    transition: box-shadow 0.6s;
-
-    &:hover {
-        box-shadow: 0 0 60px 2px $spotTwo,
-            0rem 0rem 30px mix(black, $spotOne, 50%);
-    }
-
-    &:after {
-        content: "";
-        position: absolute;
-        top: 2px;
-        right: 2px;
-        bottom: 2px;
-        left: 2px;
-        border-radius: 30px;
-        background-image: linear-gradient(
-            170deg,
-            rgba(white, 0.3),
-            rgba(white, 0)
-        );
-        pointer-events: none;
-    }
+    background-image: linear-gradient(170deg, rgba(white, 0.3), rgba(white, 0));
+    pointer-events: none;
+  }
 }
 
 .links {
-    align-content: center;
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-    padding: 0 2%;
-    flex-wrap: wrap;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  padding: 0 2%;
+  flex-wrap: wrap;
 }
 
 .links a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1000px) {
-    .header {
-        position: fixed;
-        width: 100%;
-        z-index: 1;
-        padding: 2%;
-    }
-    .links {
-        width: 45%;
-    }
+  .header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 2%;
+  }
+  .links {
+    width: 45%;
+  }
 }
 
 // @media only screen and (max-width: 1000px) {
@@ -121,33 +116,33 @@ $spotThree: #ff0000;
 // }
 
 @media only screen and (max-width: 730px) {
-    .header {
-        flex-direction: column;
-        align-items: center;
-        .heading {
-            width: 100%;
-            height: 35px;
-            text-align: center;
-            padding: 3% 0;
-            a {
-                font-size: 2rem;
-            }
-        }
-        .links {
-            width: 90%;
-            padding: 2%;
-        }
+  .header {
+    flex-direction: column;
+    align-items: center;
+    .heading {
+      width: 100%;
+      height: 35px;
+      text-align: center;
+      padding: 3% 0;
+      a {
+        font-size: 2rem;
+      }
     }
+    .links {
+      width: 90%;
+      padding: 2%;
+    }
+  }
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
