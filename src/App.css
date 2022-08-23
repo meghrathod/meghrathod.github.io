@@ -63,3 +63,17 @@
         format("woff2");
     font-weight: lighter;
 }
+
+@font-face {
+    font-family: "Chivo";
+    src: url("./components/fonts/chivo/chivo-regular.woff2")
+        format("woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Chivo";
+    src: url("./components/fonts/chivo/chivo-lighter.woff2")
+        format("woff2");
+    font-weight: lighter;
+}

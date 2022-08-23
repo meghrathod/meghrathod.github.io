@@ -31,7 +31,7 @@ function Right() {
   return (
     <div className="right-container">
       <div className="right-list">
-        <h1>Who am I?</h1>
+        {/* <h1>Who am I?</h1> */}
 
         <motion.div
           className="right-item"
