@@ -9,8 +9,8 @@ import ReactDOM from "react-dom";
 
 //DOM Manipulator
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById("root")
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
