@@ -1,67 +1,69 @@
 .right-container {
-    justify-content: flex-end;
-    width: 70%;
-    border-left: 7px dotted rgba(255, 255, 255, 0.38);
+  justify-content: flex-end;
+  width: 70%;
+  border-left: 7px dotted rgba(255, 255, 255, 0.38);
 
-    .right-list {
-        padding: 0% 3%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        
-        h1{
-            font-size: 2.2rem;
-            font-family: "Chivo";
-            font-weight: bold;
-        }
+  .right-list {
+    padding: 0% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-        .right-item {
-            height: 30%;
-            display: flex;
-            flex-direction: row;
-
-            img, svg {
-                width: 100px;
-                margin: 2%;
-            }
-            p {
-                font-family: "Chivo";
-                font-size: 1.35rem;
-                font-weight: lighter;
-                color: white;
-            }
-
-            h1{
-                font-weight: bold;
-                font-size: 2rem;
-            }
-        }
+    h1 {
+      font-size: 2.2rem;
+      font-family: "Chivo";
+      font-weight: bold;
     }
+
+    .right-item {
+      height: 30%;
+      display: flex;
+      flex-direction: row;
+
+      img,
+      svg {
+        width: 100px;
+        margin: 2%;
+      }
+      p {
+        font-family: "Chivo";
+        font-size: 1.35rem;
+        font-weight: lighter;
+        color: white;
+      }
+
+      h1 {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1200px) {
-    .right-container {
-        border: none;
-        padding: 0;
-        width: 65%;
+  .right-container {
+    border: none;
+    padding: 0;
+    width: 65%;
 
-        .right-list {
-            transform: translateY(-100px);
+    .right-list {
+      transform: translateY(-100px);
 
-            h1{
-                text-align: center;
-            }
+      h1 {
+        text-align: center;
+      }
 
-            .right-item {
-                flex-direction: column;
-                align-items: center;
-                padding:5% 0;
+      .right-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0;
 
-                p, h1{
-                    text-align: center;
-                }
-            }
+        p,
+        h1 {
+          text-align: center;
         }
+      }
     }
+  }
 }
