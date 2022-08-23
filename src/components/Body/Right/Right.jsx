@@ -25,12 +25,13 @@ const fadeVariant3 = {
   },
 };
 
+// Right side Body component
 function Right() {
-  let w = window.screen.width;
+  const width = window.screen.width;
   return (
     <div className="right-container">
       <div className="right-list">
-        <h1>Who am I?</h1>
+        {/* <h1>Who am I?</h1> */}
 
         <motion.div
           className="right-item"
@@ -44,8 +45,8 @@ function Right() {
             <h1>Cloud Computing and DevOps Enthusiast</h1>
             <p>
               Currently exploring Cloud Computing with the Google Cloud
-              Platform. Along with that I'm also exploring DevOps technologies
-              like Docker, Kubernetes, etc.
+              Platform. Along with that I&apos;m also exploring DevOps
+              technologies like Docker, Kubernetes, etc.
             </p>
           </div>
         </motion.div>
@@ -54,7 +55,7 @@ function Right() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          variants={w > 1200 ? fadeVariant2 : fadeVariant1}
+          variants={width > 1200 ? fadeVariant2 : fadeVariant1}
         >
           <img src={java} alt="java" />
           <div>
@@ -71,7 +72,7 @@ function Right() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          variants={w > 1200 ? fadeVariant3 : fadeVariant1}
+          variants={width > 1200 ? fadeVariant3 : fadeVariant1}
         >
           <img src={webdev} alt="webdev" />
           <div>

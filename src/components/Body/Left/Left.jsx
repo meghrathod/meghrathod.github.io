@@ -4,6 +4,7 @@ import memoji from "./memoji_new.webp";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
+// Memoji component
 function Memoji() {
   return (
     <div className="memoji-container">
@@ -13,6 +14,7 @@ function Memoji() {
   );
 }
 
+// Left component
 function Left() {
   return (
     <div className="left-container">
