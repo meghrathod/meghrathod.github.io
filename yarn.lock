@@ -9141,10 +9141,10 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.2.tgz#dc6345b9e8f9906dc2eeb68700b615e0b4fe752a"
   integrity sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==
 
-react-type-animation@^2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/react-type-animation/-/react-type-animation-2.0.9.tgz#7933eb122f2b92dc88cac1ffc8652924053629a1"
-  integrity sha512-x0qLgPYGAL3SkrjnBcGGk2Ro0Bp52u7qa/iRY+7m8wigTrqj6USqT0HV/pG4/OA4X0mvRhezWYLtNlsI/0ZmOQ==
+react-type-animation@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-type-animation/-/react-type-animation-2.1.0.tgz#b4632bd0f7b507754455309b99842fb4fe5da7f1"
+  integrity sha512-glWKvTVGm1Y752pIZeDCELt8qWzV1cH9/UjF8UEFgHUPWmv72a0zsXqEju0JtM6yuPH0dckdRIB9CP21nAkjug==
 
 react@^18.2.0:
   version "18.2.0"
