@@ -13,7 +13,7 @@
     "react-helmet": "^6.1.0",
     "react-scripts": "4.0.3",
     "react-type-animation": "^2.0.9",
-    "sass": "^1.54.8",
+    "sass": "^1.56.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
