@@ -6,7 +6,7 @@
   "dependencies": {
     "framer-motion": "^6.5.1",
     "gh-pages": "^4.0.0",
-    "helmet": "^5.1.1",
+    "helmet": "^6.0.1",
     "react": "^18.2.0",
     "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0",
